@@ -1,0 +1,5 @@
+int main(void){
+    gmpfi_t g_x,g_y[1],g_z[10];
+    int int_x=2,int_y;
+    double d_x=3.0,d_y;
+}

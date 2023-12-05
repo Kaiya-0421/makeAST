@@ -1,0 +1,12 @@
+int main(){
+    printf("start1個目"); 
+    int x;
+    printf("end1個目");
+    if(i==0){
+        printf("start5個目");
+        printf("end5個目");
+    }else{
+        printf("start6個目");
+        printf("end6個目");
+    }
+}

@@ -1,0 +1,189 @@
+make_basic_block_list
+make_basic_block_cellに入った瞬間
+int main(){
+    printf("start1個目"); 
+    int x;
+    printf("end1個目");
+    for(i=0;i < N;i++){
+        printf("start2個目");
+        int t;
+        printf("end2個目");
+        for(j=0;j<N;j++){
+            printf("startとend同じ3個目");
+        }
+        printf("start4個目");
+        printf("end4個目");
+    }
+    printf("betweenFor_If");
+    if(i==0){
+        printf("start5個目");
+        printf("end5個目");
+    }else{
+        printf("start6個目");
+        printf("end6個目");
+    }
+    printf("start7個目");
+    printf("end7個目");
+}
+Parsing complete
+コード開始
+test_aa
+make_basic_block_cellに入った瞬間
+test_aa
+make_basic_block_cellに入った瞬間
+test_aa
+make_basic_block_cellに入った瞬間
+test_aa
+make_basic_block_cellに入った瞬間
+test_aa
+make_basic_block_cellに入った瞬間
+test_aa
+
+
+1個めのstatement文---------------------------------------
+
+
+start_st=
+printf("start7個目");
+printf("end7個目");
+
+---------------------------------------
+end_st=
+
+printf("end7個目");
+---------------------------------------
+
+
+
+2個めのstatement文---------------------------------------
+
+
+start_st=
+printf("start6個目");
+printf("end6個目");
+
+---------------------------------------
+end_st=
+
+printf("end6個目");
+---------------------------------------
+
+
+
+3個めのstatement文---------------------------------------
+
+
+start_st=
+printf("start5個目");
+printf("end5個目");
+
+---------------------------------------
+end_st=
+
+printf("end5個目");
+---------------------------------------
+
+
+
+4個めのstatement文---------------------------------------
+
+
+start_st=
+printf("betweenFor_If");
+if(i==0){
+printf("start5個目");
+printf("end5個目");
+
+} else {
+printf("start6個目");
+printf("end6個目");
+
+}printf("start7個目");
+printf("end7個目");
+
+---------------------------------------
+end_st=
+
+printf("betweenFor_If");
+if(i==0){
+printf("start5個目");
+printf("end5個目");
+
+} else {
+printf("start6個目");
+printf("end6個目");
+
+}printf("start7個目");
+printf("end7個目");
+---------------------------------------
+
+
+
+5個めのstatement文---------------------------------------
+
+
+start_st=
+printf("start1個目");
+int  x ;
+printf("end1個目");
+for( i =0;
+i<N;
+i++)
+{
+printf("start2個目");
+int  t ;
+printf("end2個目");
+for( j =0;
+j<N;
+j++)
+{
+printf("startとend同じ3個目");
+
+}printf("start4個目");
+printf("end4個目");
+
+}printf("betweenFor_If");
+if(i==0){
+printf("start5個目");
+printf("end5個目");
+
+} else {
+printf("start6個目");
+printf("end6個目");
+
+}printf("start7個目");
+printf("end7個目");
+
+---------------------------------------
+end_st=
+
+printf("end1個目");
+for( i =0;
+i<N;
+i++)
+{
+printf("start2個目");
+int  t ;
+printf("end2個目");
+for( j =0;
+j<N;
+j++)
+{
+printf("startとend同じ3個目");
+
+}printf("start4個目");
+printf("end4個目");
+
+}printf("betweenFor_If");
+if(i==0){
+printf("start5個目");
+printf("end5個目");
+
+} else {
+printf("start6個目");
+printf("end6個目");
+
+}printf("start7個目");
+printf("end7個目");
+---------------------------------------
+

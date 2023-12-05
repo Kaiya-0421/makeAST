@@ -1,0 +1,78 @@
+#include "gmpfi.h"
+int counter;
+int x[N];
+extern int *a;
+extern int x[3];
+volatile int a=2;
+#include <stdio.h>
+int x;
+#define N 3
+#include <stdio.h>
+void func(int a,float c,int x[10]);
+int *func(int x);
+int main(void){
+    
+    gmpfi_t x,y,z;
+
+    gmpfi_add(4*(3+b),x);
+    f(4*(3+b),x);
+    printf("a");
+    
+    ptr=&a;
+    *x=5;
+    *x=*p;
+    while(1){
+        printf("a");
+    }
+    x[5]=3+3;
+    func();
+    x=-y;
+    for(counter=0; counter<x; counter++){
+        a=counter * (x+30/5+a); 
+        printf("a");
+        x=8-(f(4*(3+b),x) + 4);
+        if(!TRUE){printf("偽");}
+        if(a >= 0){ 
+            a=1;
+            if(x==0&&x==y){
+                return 1;
+                x=2;
+            }
+        }else{
+            a=10;
+            for(i=0;issss<32;i++){
+                printf("main_for_ININ");
+            }
+            return f(4*(3+b),x);
+        }
+      int x[10]=12;  //テスト
+    }
+    
+    char d[10];
+    x=2;
+    int a;
+    return 0;
+}
+int func(int x){
+    int in_func_x=0,in_func_y;
+    for(counter=100; counter<x; counter++){
+        a=counter * (x+30/5+a); 
+        printf("a");
+        x=8-(f(4*(3+z),n) + 1);
+        if(a >= 0){ 
+            b=5;
+        }else{
+            c=10;
+        }
+        for(counter=0; counter<ssss; counter++){
+            printf("function_forININ");
+            for(is=0;is<aaaa;i++){
+                printf("function_forINININ");
+            }
+        }
+        a=10;a=1;
+    }
+    x=2;
+    printf("test3");
+    return x;
+}

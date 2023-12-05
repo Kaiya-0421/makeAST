@@ -1,0 +1,8 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "ansi_tree.h": "c",
+        "ansi_symbol_table.h": "c",
+        "ansi_symbol_table_list.h": "c"
+    }
+}

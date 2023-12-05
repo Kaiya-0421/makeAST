@@ -1,0 +1,36 @@
+#include "gmpfi.h"
+#include <stdio.h>
+#define N 3
+#include <stdio.h>
+int main(void){
+    
+    for(counter=0; counter<x; counter++){
+        printf("main_for1");
+        for(i=0;test<32;i++){
+            printf("main_for1_for1");
+            for(i=0;test<1;i++){
+                printf("main_for1_for1_for1");
+            }
+        }
+        for(i=0;test<1;i++){
+            printf("main_for1_for2");
+        }
+    }
+    x=2;
+    return 0;
+}
+int func(int x){
+    for(counter=100; counter<x; counter++){
+        printf("func_for1");
+        for(counter=0; counter<x; counter++){
+            printf("func_for1_for1");
+            for(i=0;test<32;i++){
+                printf("func_for1_for1_for1");
+            }
+            for(i=0;test<1;i++){
+                printf("func_for1_for2");
+            }
+        }
+    }
+    
+}
