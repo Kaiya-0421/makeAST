@@ -17,8 +17,11 @@
 ### 全ソースコードの出力やfor構文の出力方法
 DEFINE_macro.hで適当な行のコメントアウトを外し、再度コンパイルするとできるようになります。
 **↓DEFINE_macro.hの中身↓**
+
 //#define ALL_print     // ASTをたどりソースコードを全て出力します
+
 //#define FOR_print    // ASTをたどりソースコード内の全for文の先頭からそのfor文の終わりまで出力します。
+
 //#define SYMBOL         // ASTをたどりソースコード内の全定義文を表示します。
 
    
